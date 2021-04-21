@@ -1,0 +1,71 @@
+root - INFO - Program Started
+root - WARNING - Import statement not used
+root - ERROR - NameError raised
+__main__ - INFO - Test Output
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 383-594-254
+root - INFO - Program Started
+root - WARNING - Import statement not used
+root - ERROR - NameError raised
+logger - INFO - Test Output
+werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+werkzeug - INFO -  * Restarting with stat
+root - INFO - Program Started
+root - WARNING - Import statement not used
+root - ERROR - NameError raised
+logger - INFO - Test Output
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 383-594-254
+root - INFO - Program Started
+root - WARNING - Import statement not used
+root - ERROR - NameError raised
+werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+werkzeug - INFO -  * Restarting with stat
+root - INFO - Program Started
+root - WARNING - Import statement not used
+root - ERROR - NameError raised
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 383-594-254
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 08:45:25] "[37mGET /clients HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 08:45:28] "[37mGET / HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 08:46:14] "[37mGET /clients/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 08:46:33] "[37mGET /clients/2 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 08:46:34] "[33mGET /clients/23 HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 08:47:01] "[37mGET /clients/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 08:47:05] "[37mGET /clients/1/accounts HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 08:47:14] "[37mGET /clients/1/accounts/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 08:47:21] "[33mGET /clients/1/accounts/2 HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 08:47:39] "[37mGET /clients/3 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 08:47:44] "[37mGET /clients/3/accounts HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 08:47:59] "[37mGET /clients/3/accounts/11 HTTP/1.1[0m" 200 -
+root - INFO - Program Started
+root - WARNING - Import statement not used
+root - ERROR - NameError raised
+werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+werkzeug - INFO -  * Restarting with stat
+root - INFO - Program Started
+root - WARNING - Import statement not used
+root - ERROR - NameError raised
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 383-594-254
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:33] "[37mGET /clients HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:33] "[37mGET /clients/2 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:33] "[33mGET /clients/25 HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:33] "[37mGET /clients/1/accounts HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:33] "[33mGET /clients/10/accounts HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:34] "[37mGET /clients/3/accounts/7 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:34] "[33mGET /clients/3/accounts/4 HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:34] "[33mGET /clients/10/accounts?balanceLessThan=2000&balanceGreaterThan=600 HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:34] "[37mGET /clients/3/accounts?balanceLessThan=2000&balanceGreaterThan=500 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:34] "[37mPOST /clients HTTP/1.1[0m" 201 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:34] "[37mPOST /clients/3/accounts HTTP/1.1[0m" 201 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:34] "[33mPUT /clients/12 HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:34] "[33mPUT /clients/10 HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:35] "[37mPUT /clients/3/accounts/7 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:35] "[33mPUT /clients/3/accounts/79 HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:35] "[33mDELETE /clients/12 HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:35] "[33mDELETE /clients/15 HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:35] "[33mDELETE /clients/2/accounts/2 HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 10:28:35] "[33mDELETE /clients/1/accounts/18 HTTP/1.1[0m" 404 -
